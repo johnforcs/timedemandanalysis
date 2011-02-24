@@ -1,0 +1,98 @@
+
+
+Workload Analysis:  workLoad 1
+	(p=25ms, e=8ms, D=25ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=0ms, NoExclusion)
+	(p=100ms, e=40ms, D=100ms, Critical Section=0ms, NoExclusion)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=8   	wi[t]=8 	b=0
+	FEASIBLE - Task 2: 	time=21   	wi[t]=21 	b=0
+	FEASIBLE - Task 3: 	time=98   	wi[t]=98 	b=0
+
+
+Workload Analysis:  workLoad 2
+	(p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=0ms, NoExclusion)
+	(p=100ms, e=40ms, D=75ms, Critical Section=0ms, NoExclusion)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=8   	wi[t]=8 	b=0
+	FEASIBLE - Task 2: 	time=21   	wi[t]=21 	b=0
+	NOT FEASIBLE - Task 3: 
+
+
+Workload Analysis:  workLoad 3
+	(p=10ms, e=1ms, D=10ms, Critical Section=0ms, NoExclusion)
+	(p=20ms, e=5ms, D=20ms, Critical Section=0ms, NoExclusion)
+	(p=30ms, e=12ms, D=30ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=15ms, D=50ms, Critical Section=0ms, NoExclusion)
+MaxPeriod= 50, MinPeriod= 10  
+The LCM/Hyperperiod of the periods: 300 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=1   	wi[t]=1 	b=0
+	FEASIBLE - Task 2: 	time=6   	wi[t]=6 	b=0
+	FEASIBLE - Task 3: 	time=19   	wi[t]=19 	b=0
+	NOT FEASIBLE - Task 4: 
+
+
+Workload Analysis:  workLoad 4
+	(p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=2ms, MaskingInterrupts)
+	(p=100ms, e=40ms, D=100ms, Critical Section=2ms, MaskingInterrupts)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	NOT FEASIBLE - Task 1: 
+	FEASIBLE - Task 2: 	time=23   	wi[t]=23 	b=2
+	FEASIBLE - Task 3: 	time=100   	wi[t]=100 	b=2
+
+
+Workload Analysis:  workLoad 5
+	(p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=2ms, RealTimeSemaphore)
+	(p=100ms, e=40ms, D=100ms, Critical Section=2ms, RealTimeSemaphore)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=8   	wi[t]=8 	b=0
+	FEASIBLE - Task 2: 	time=23   	wi[t]=23 	b=2
+	FEASIBLE - Task 3: 	time=100   	wi[t]=100 	b=2
+
+
+Workload Analysis:  workLoad 6
+	(p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=2ms, RealTimeSemaphore)
+	(p=100ms, e=40ms, D=100ms, Critical Section=4ms, RealTimeSemaphore)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=8   	wi[t]=8 	b=0
+	FEASIBLE - Task 2: 	time=25   	wi[t]=25 	b=4
+	FEASIBLE - Task 3: 	time=100   	wi[t]=100 	b=2
+
+
+Workload Analysis:  workLoad 7
+	(p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=10ms, RealTimeSemaphore)
+	(p=100ms, e=40ms, D=100ms, Critical Section=10ms, RealTimeSemaphore)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=8   	wi[t]=8 	b=0
+	FEASIBLE - Task 2: 	time=25   	wi[t]=25 	b=4
+	FEASIBLE - Task 3: 	time=100   	wi[t]=100 	b=2
+
+
+Workload Analysis:  workLoad 8
+	(p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+	(p=50ms, e=13ms, D=50ms, Critical Section=10ms, RealTimeSemaphore)
+	(p=100ms, e=40ms, D=100ms, Critical Section=10ms, RealTimeSemaphore)
+MaxPeriod= 100, MinPeriod= 25  
+The LCM/Hyperperiod of the periods: 100 
+Performing Time Demand Analysis
+	FEASIBLE - Task 1: 	time=8   	wi[t]=8 	b=0
+	FEASIBLE - Task 2: 	time=39   	wi[t]=39 	b=10
+	NOT FEASIBLE - Task 3: 

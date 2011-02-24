@@ -1,0 +1,33 @@
+Workload: workLoad 1
+        (p=25ms, e=8ms, D=25ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section=0ms, NoExclusion)
+        (p=100ms, e=40ms, D=100ms, Critical Section=0ms, NoExclusion)
+Workload: workLoad 2
+        (p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section=0ms, NoExclusion)
+        (p=100ms, e=40ms, D=75ms, Critical Section=0ms, NoExclusion)
+Workload: workLoad 3
+        (p=10ms, e=1ms, D=10ms, Critical Section=0ms, NoExclusion)
+        (p=20ms, e=5ms, D=20ms, Critical Section=0ms, NoExclusion)
+        (p=30ms, e=12ms, D=30ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=15ms, D=50ms, Critical Section=0ms, NoExclusion)
+Workload: workLoad 4
+        (p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section1=2ms, MaskingInterrupts)
+        (p=100ms, e=40ms, D=100ms, Critical Section1=2ms, MaskingInterrupts)
+Workload: workLoad 5
+        (p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section2=2ms, RealTimeSemaphore)
+        (p=100ms, e=40ms, D=100ms, Critical Section2=2ms, RealTimeSemaphore)
+Workload: workLoad 6
+        (p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section2=2ms, Critical Section3=2ms,RealTimeSemaphore)
+        (p=100ms, e=40ms, D=100ms, Critical Section2=2ms, Critical Section3=4ms,RealTimeSemaphore)
+Workload: workLoad 7
+        (p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section2=2ms, Critical Section3=2ms, Critical Section6=10ms,RealTimeSemaphore)
+        (p=100ms, e=40ms, D=100ms, Critical Section2=2ms, Critical Section3=4ms, Critical Section7=10ms,RealTimeSemaphore)
+Workload: workLoad 8
+        (p=25ms, e=8ms, D=9ms, Critical Section=0ms, NoExclusion)
+        (p=50ms, e=13ms, D=50ms, Critical Section2=2ms, Critical Section3=2ms, Critical Section6=10ms,RealTimeSemaphore)
+        (p=100ms, e=40ms, D=100ms, Critical Section2=2ms, Critical Section3=4ms, Critical Section6=10ms,RealTimeSemaphore)
